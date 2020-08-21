@@ -36,7 +36,7 @@ export class HomePage {
         }
       );
 
-    let beaconRegion = this.ibeacon.BeaconRegion('presensor','fda50693-a4e2-4fb1-afcf-c6eb07647825');
+    let beaconRegion = this.ibeacon.BeaconRegion('WGX iBEACON','fda50693-a4e2-4fb1-afcf-c6eb07647825');
 
     this.ibeacon.startMonitoringForRegion(beaconRegion)
       .then(
